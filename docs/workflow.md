@@ -6,13 +6,13 @@ operation only.
 
 ## 1. Get the data
 
-**GSE149689** — Lee et al., *Science Immunology* 2020, "Immunophenotyping of
+**GSE149689**. Lee et al., *Science Immunology* 2020, "Immunophenotyping of
 COVID-19 and influenza highlights the role of type I interferons in development
 of severe COVID-19". Open access on GEO (CC BY 4.0), no data-access application
 needed.
 
 The series ships one combined 10x matrix holding all 20 samples; each barcode
-ends in a sample index (`-1` … `-20`).
+ends in a sample index (`-1` to `-20`).
 
 1. Open the
    [GSE149689 GEO page](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149689)
@@ -117,7 +117,7 @@ refresh it:
 cp figures/pathways_CD14_Mono.csv results/enrichment/CD14_Mono/enrichr_severe_up_top15.csv
 ```
 
-Enrichr receives only the top genes by fold change — 200 by default, set with
+Enrichr receives only the top genes by fold change: 200 by default, set with
 `--top-genes`. That cap is why figure 6 says "top 200 of 240".
 
 ## 6. What each step writes
@@ -131,7 +131,7 @@ Enrichr receives only the top genes by fold change — 200 by default, set with
 | Pseudobulk DE | `src/differential_state.py` | `pseudobulk/deseq2_<cell type>_severe_vs_mild.csv`, `pseudobulk_counts.csv`, `pseudobulk_metadata.csv` |
 | Enrichment | `src/enrichment.py` | `enrichment/<cell type>/GO_severe_up.csv`, `KEGG_severe_up.csv` |
 
-`cohort_processed.h5ad` is about 500 MB and is not committed — it exceeds
+`cohort_processed.h5ad` is about 500 MB and is not committed, since it exceeds
 GitHub's file size limit. Everything else in `results/` is in the repository.
 
 ## 7. Notes and caveats

@@ -84,8 +84,8 @@ def export_umap_coords() -> None:
     Pull the UMAP embedding out of the processed AnnData into a small CSV.
 
     The .h5ad is ~500 MB and is not committed, so the figure is drawn from this
-    extract instead. When the object is absent — a fresh clone, or results
-    pulled without re-running — the committed extract is left as it is.
+    extract instead. When the object is absent (a fresh clone, or results pulled
+    without re-running), the committed extract is left as it is.
     """
     h5ad = RESULTS / "cohort_processed.h5ad"
     out = SUMMARY / "umap_coords.csv.gz"
@@ -314,8 +314,8 @@ def fig_umap(plt) -> None:
                    ncol=3, handletextpad=0.3, columnspacing=1.4)
     header(fig, f"{len(d):,} PBMCs from 14 donors, after integrating over donor",
            "Harmony integration, then Leiden clustering labelled by canonical marker "
-           "score. Every cell type draws\non all three groups, so donor is not driving "
-           "the clusters — but inside the monocytes, severe cells\nstill sit apart.")
+           "score.\nEvery cell type draws on all three groups, so donor is not driving "
+           "the clusters.")
     fig.tight_layout(rect=(0, 0.04, 1, 0.84), w_pad=2.0)
     save(fig, "fig1_umap.png")
 
