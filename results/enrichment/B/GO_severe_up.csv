@@ -1,0 +1,9 @@
+Gene_set,Term,Overlap,P-value,Adjusted P-value,Old P-value,Old Adjusted P-value,Odds Ratio,Combined Score,Genes
+GO_Biological_Process_2021,positive regulation of calcium-mediated signaling (GO:0050850),1/13,0.0006499833083207112,0.0036999301405757,0,0,19987.0,146675.87616784443,P2RX5
+GO_Biological_Process_2021,regulation of calcium-mediated signaling (GO:0050848),1/28,0.0013999711732997,0.0036999301405757,0,0,19972.0,131242.0761597353,P2RX5
+GO_Biological_Process_2021,positive regulation of calcium ion transport into cytosol (GO:0010524),1/34,0.0016999670339032,0.0036999301405757,0,0,19966.0,127326.1054203148,P2RX5
+GO_Biological_Process_2021,positive regulation of calcium ion transport (GO:0051928),1/37,0.0018499650702878,0.0036999301405757,0,0,19963.0,125618.9446446357,P2RX5
+GO_Biological_Process_2021,positive regulation of cytosolic calcium ion concentration (GO:0007204),1/147,0.0073499154017982,0.0117598646428772,0,0,19853.0,97539.10874372096,P2RX5
+GO_Biological_Process_2021,nervous system development (GO:0007399),1/447,0.0223498460316609,0.0297997947088813,0,0,19553.0,74319.69861463128,P2RX5
+GO_Biological_Process_2021,positive regulation of intracellular signal transduction (GO:1902533),1/546,0.0272998312106845,0.0311998070979251,0,0,19454.0,70051.41757265815,P2RX5
+GO_Biological_Process_2021,positive regulation of cellular process (GO:0048522),1/625,0.0312498210187629,0.0312498210187629,0,0,19375.0,67148.74408542943,P2RX5

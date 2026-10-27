@@ -1,0 +1,15 @@
+sample_id,condition,n_cells,median_n_genes
+S1,severe,5369,1504.0
+S10,severe,843,1381.0
+S11,mild,6239,1537.0
+S12,mild,5993,1551.0
+S13,healthy,5780,1660.0
+S14,healthy,6196,1533.0
+S15,severe,1918,732.5
+S16,severe,3309,488.0
+S17,severe,1462,1801.0
+S18,mild,3782,1928.0
+S19,healthy,5265,1815.0
+S2,mild,7494,1438.0
+S5,healthy,5901,1727.0
+S9,severe,412,1377.5

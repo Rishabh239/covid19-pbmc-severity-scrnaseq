@@ -1,0 +1,15 @@
+condition,sample_id,cells_loaded,cells_after_qc,median_n_genes
+healthy,S13,5780,3905,1660.0
+healthy,S14,6196,3699,1533.0
+healthy,S19,5265,3402,1815.0
+healthy,S5,5901,3489,1727.0
+mild,S11,6239,3386,1537.0
+mild,S12,5993,3961,1551.0
+mild,S18,3782,2984,1928.0
+mild,S2,7494,3754,1438.0
+severe,S1,5369,3637,1504.0
+severe,S10,843,604,1381.0
+severe,S15,1918,1233,732.5
+severe,S16,3309,1371,488.0
+severe,S17,1462,1294,1801.0
+severe,S9,412,369,1377.5

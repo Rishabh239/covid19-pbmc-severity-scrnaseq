@@ -1,0 +1,4 @@
+condition,samples,cells_loaded,cells_after_qc
+healthy,4,23142,14495
+mild,4,23508,14085
+severe,6,13313,8508

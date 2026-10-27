@@ -1,0 +1,44 @@
+# Dependencies for the GSE149689 COVID-19 PBMC reanalysis.
+#   pip install -r requirements.txt
+#
+# This is what run_cohort.py, make_report.py and make_figures.py actually need.
+# The machine-learning classifier in src/classification.py is not used by this
+# study; its extra dependencies are listed at the bottom, commented out.
+
+# Core single-cell analysis
+scanpy>=1.9.0
+anndata>=0.8.0
+leidenalg>=0.9.0          # backend for sc.tl.leiden
+python-igraph>=0.10.0
+
+# Batch integration
+harmonypy>=0.0.9,<2       # pure-Python build; harmonypy 2.x has no Windows wheels
+
+# Pseudobulk differential expression
+pydeseq2>=0.4.0
+
+# Pathway enrichment (Enrichr backend; needs internet)
+gseapy>=1.0.0
+
+# Data handling
+pandas>=1.5.0
+numpy>=1.23.0
+scipy>=1.9.0
+h5py>=3.7.0               # reads the UMAP embedding out of the .h5ad
+
+# Figures
+matplotlib>=3.6.0
+seaborn>=0.12.0           # make_figures.py heatmap only
+
+# --- Optional: only for src/classification.py, which this study does not run.
+# Uncomment if you want the Random Forest / SVM / neural-network classifier.
+# scikit-learn>=1.1.0
+# joblib>=1.2.0
+# tensorflow>=2.10.0
+# imbalanced-learn>=0.10.0
+# shap>=0.41.0
+
+# --- Known environment issue
+# scanpy imports numba, and numba <0.61 refuses to run against numpy >= 2.2
+# ("Numba needs NumPy 2.1 or less"). If you hit that, either upgrade numba or
+# pin numpy < 2.2 in your environment.

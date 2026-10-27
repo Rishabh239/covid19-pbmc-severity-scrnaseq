@@ -1,0 +1,8 @@
+cell_type,genes_tested,significant,up_in_severe,up_in_mild,significant_lfc_over_1
+CD14 Mono,14806,588,353,235,391
+NK,13355,25,4,21,18
+CD8 T,12865,1,0,1,0
+CD4 T,12980,4,3,1,4
+B,13142,2,1,1,2
+Platelet,9132,149,19,130,149
+CD16 Mono,11117,11,11,0,11

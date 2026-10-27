@@ -1,0 +1,3 @@
+Gene_set,Term,Overlap,P-value,Adjusted P-value,Old P-value,Old Adjusted P-value,Odds Ratio,Combined Score,Genes
+KEGG_2021_Human,Calcium signaling pathway,1/240,0.011999888068101,0.0170498652201941,0,0,19760.0,87395.67322826275,P2RX5
+KEGG_2021_Human,Neuroactive ligand-receptor interaction,1/341,0.0170498652201941,0.0170498652201941,0,0,19659.0,80043.83957888828,P2RX5

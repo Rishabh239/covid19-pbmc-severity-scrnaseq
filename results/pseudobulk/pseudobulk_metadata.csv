@@ -1,0 +1,102 @@
+pseudobulk_id,sample_id,cell_type,condition,n_cells
+S1|B,S1,B,severe,621
+S1|CD14 Mono,S1,CD14 Mono,severe,1244
+S1|CD16 Mono,S1,CD16 Mono,severe,66
+S1|CD4 T,S1,CD4 T,severe,454
+S1|CD8 T,S1,CD8 T,severe,194
+S1|DC,S1,DC,severe,10
+S1|NK,S1,NK,severe,252
+S1|Platelet,S1,Platelet,severe,796
+S10|B,S10,B,severe,147
+S10|CD14 Mono,S10,CD14 Mono,severe,314
+S10|CD4 T,S10,CD4 T,severe,46
+S10|CD8 T,S10,CD8 T,severe,45
+S10|NK,S10,NK,severe,26
+S10|Platelet,S10,Platelet,severe,22
+S11|B,S11,B,mild,398
+S11|CD14 Mono,S11,CD14 Mono,mild,867
+S11|CD16 Mono,S11,CD16 Mono,mild,178
+S11|CD4 T,S11,CD4 T,mild,611
+S11|CD8 T,S11,CD8 T,mild,554
+S11|DC,S11,DC,mild,73
+S11|NK,S11,NK,mild,584
+S11|Platelet,S11,Platelet,mild,121
+S12|B,S12,B,mild,517
+S12|CD14 Mono,S12,CD14 Mono,mild,922
+S12|CD16 Mono,S12,CD16 Mono,mild,60
+S12|CD4 T,S12,CD4 T,mild,364
+S12|CD8 T,S12,CD8 T,mild,885
+S12|DC,S12,DC,mild,42
+S12|NK,S12,NK,mild,889
+S12|Platelet,S12,Platelet,mild,282
+S13|B,S13,B,healthy,323
+S13|CD14 Mono,S13,CD14 Mono,healthy,1061
+S13|CD16 Mono,S13,CD16 Mono,healthy,382
+S13|CD4 T,S13,CD4 T,healthy,655
+S13|CD8 T,S13,CD8 T,healthy,395
+S13|DC,S13,DC,healthy,103
+S13|NK,S13,NK,healthy,936
+S13|Platelet,S13,Platelet,healthy,50
+S14|B,S14,B,healthy,341
+S14|CD14 Mono,S14,CD14 Mono,healthy,1187
+S14|CD16 Mono,S14,CD16 Mono,healthy,240
+S14|CD4 T,S14,CD4 T,healthy,514
+S14|CD8 T,S14,CD8 T,healthy,506
+S14|DC,S14,DC,healthy,96
+S14|NK,S14,NK,healthy,646
+S14|Platelet,S14,Platelet,healthy,169
+S15|B,S15,B,severe,80
+S15|CD14 Mono,S15,CD14 Mono,severe,255
+S15|CD4 T,S15,CD4 T,severe,46
+S15|NK,S15,NK,severe,264
+S15|Platelet,S15,Platelet,severe,583
+S16|B,S16,B,severe,146
+S16|CD14 Mono,S16,CD14 Mono,severe,283
+S16|CD4 T,S16,CD4 T,severe,220
+S16|CD8 T,S16,CD8 T,severe,63
+S16|NK,S16,NK,severe,63
+S16|Platelet,S16,Platelet,severe,595
+S17|B,S17,B,severe,230
+S17|CD14 Mono,S17,CD14 Mono,severe,641
+S17|CD16 Mono,S17,CD16 Mono,severe,11
+S17|CD4 T,S17,CD4 T,severe,28
+S17|CD8 T,S17,CD8 T,severe,131
+S17|NK,S17,NK,severe,152
+S17|Platelet,S17,Platelet,severe,99
+S18|B,S18,B,mild,514
+S18|CD14 Mono,S18,CD14 Mono,mild,1114
+S18|CD16 Mono,S18,CD16 Mono,mild,275
+S18|CD4 T,S18,CD4 T,mild,137
+S18|CD8 T,S18,CD8 T,mild,319
+S18|DC,S18,DC,mild,41
+S18|NK,S18,NK,mild,396
+S18|Platelet,S18,Platelet,mild,188
+S19|B,S19,B,healthy,245
+S19|CD14 Mono,S19,CD14 Mono,healthy,1168
+S19|CD16 Mono,S19,CD16 Mono,healthy,184
+S19|CD4 T,S19,CD4 T,healthy,368
+S19|CD8 T,S19,CD8 T,healthy,165
+S19|DC,S19,DC,healthy,59
+S19|NK,S19,NK,healthy,1168
+S19|Platelet,S19,Platelet,healthy,45
+S2|B,S2,B,mild,320
+S2|CD14 Mono,S2,CD14 Mono,mild,611
+S2|CD16 Mono,S2,CD16 Mono,mild,30
+S2|CD4 T,S2,CD4 T,mild,1107
+S2|CD8 T,S2,CD8 T,mild,876
+S2|DC,S2,DC,mild,22
+S2|NK,S2,NK,mild,627
+S2|Platelet,S2,Platelet,mild,161
+S5|B,S5,B,healthy,649
+S5|CD14 Mono,S5,CD14 Mono,healthy,413
+S5|CD16 Mono,S5,CD16 Mono,healthy,124
+S5|CD4 T,S5,CD4 T,healthy,289
+S5|CD8 T,S5,CD8 T,healthy,1117
+S5|DC,S5,DC,healthy,26
+S5|NK,S5,NK,healthy,839
+S5|Platelet,S5,Platelet,healthy,32
+S9|B,S9,B,severe,16
+S9|CD14 Mono,S9,CD14 Mono,severe,141
+S9|CD8 T,S9,CD8 T,severe,43
+S9|NK,S9,NK,severe,114
+S9|Platelet,S9,Platelet,severe,47

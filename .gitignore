@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Raw input data: downloaded from GEO, see docs/workflow.md
+data/*
+!data/.gitkeep
+
+# Large intermediates. The processed AnnData object is ~500 MB, over GitHub's
+# file limit; run_cohort.py regenerates it from the GEO matrix.
+*.h5ad
+*.h5
+*.pkl
+*.joblib
+*.mtx
+*.mtx.gz
+*.tar.gz
+
+# Logs and scratch
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# NOTE: results/ and figures/ are deliberately NOT ignored. The result tables
+# and figures are the point of this repository, not build artefacts.
